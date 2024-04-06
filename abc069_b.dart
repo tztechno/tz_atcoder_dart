@@ -21,9 +21,10 @@ void main(List<String> args) {
 import 'dart:io';
 void main(){
   String S = stdin.readLineSync()!.trim();
+  var n = S.length
   var s0 = S[0];
-  var s1 = S.length-2;
   var s2 = S[n-1];
+  var s1 = n-2;
 print("$s0$s1$s2");
 }
 #########################################

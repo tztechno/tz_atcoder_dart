@@ -4,7 +4,7 @@ abc082_a.dart
 import 'dart:io';
 
 void main() {
-	final inputs = stdin.readLineSync().split(" ").map(int.parse);
+    final inputs = stdin.readLineSync().split(" ").map(int.parse);
     final a = inputs.first;
     final b = inputs.last;
     
